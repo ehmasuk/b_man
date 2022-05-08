@@ -1,0 +1,361 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    background-color: #21212E;
+    color: #FFFFFF;
+    
+}
+.btn-outline-light:not(:disabled):not(.disabled).active:focus, .btn-outline-light:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-light.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.ash{
+    color: #66667E;
+}
+/* nav-bar */
+nav{
+    padding: 20px 0 !important;
+    background-color: #21212eda
+}
+nav .container{
+    max-width: 95%;
+}
+.navbar-nav{
+    justify-content: space-around;
+    width: 70%;
+}
+.nav-link{
+    padding: 5px 15px !important;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: .3s;
+}
+.nav-link:hover{
+    border: 2px solid #ffffff8f;
+}
+/* hero-section */
+.hero-section .row{
+    padding: 100px 0;
+    margin-top: 60px;
+}
+.hero-title{
+    font-weight: 200 !important;
+    font-size: 45px;
+    line-height: 45px;
+}
+.hero-des{
+    margin-bottom: 60px;
+    text-align: justify;
+}
+.btn-cnt{
+    padding:  10px 20px;
+}
+.btn-cnt a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn-cnt:hover{
+    background: transparent;
+}
+/* brand-section */
+.brand-section{
+    padding: 60px 0;
+}
+.brand-img{
+    box-shadow: 0px 0px 40px #0000008A;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.brand-section p{
+    margin: 20px 0 0 15px;
+}
+/* client-section */
+.client-section{
+    padding: 60px 0;
+    margin-top: 100px;
+}
+.client-section .card{
+    box-shadow: 0px 0px 40px #0000008A;
+    background-color: #20202C;
+    border: none;
+    border-radius: 5px;
+    min-height: 305px;
+}
+/* card */
+.crd-titl{
+    font-size: 17px;
+    color: #FFFFFF !important;
+}
+.crd-des{
+    color: #66667E;
+    margin: 0;
+}
+.crd-img{
+    min-height: 60px;
+    background-color: #262634;
+    margin-top: 35px;
+}
+.big-client{
+    margin-top: -100px;
+}
+/* mobile-section */
+.mobile-section{
+    padding: 60px 0;
+}
+.mobile-section img{
+    max-height: 500px;
+}
+
+/* price-section */
+.price-section{
+    padding: 60px 0;
+}
+.btn-group .btn{
+    min-width: 150px;
+    box-shadow: none;
+}
+
+
+.price-section .card h4{
+    background-color: #262634;
+    margin-top: 30px;
+    padding: 20px 0;
+}
+.price-section .card h2{
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.price-section .card span{
+    font-size: 15px;
+    color: #66667E;
+    font-weight: 400;
+    display: inline-block;
+}
+.price-neath{
+    font-size: 15px;
+    color: #66667E;
+    margin: 0 0 20px 0;
+}
+.price-section .card{
+    box-shadow: 0px 0px 40px #0000008A;
+    background-color: #20202C;
+    border: none;
+    border-radius: 15px;
+}
+.price-des{
+    color: #66667E;
+    padding: 0px 30px;
+    line-height: 40px;
+}
+.price-section .card .btn{
+    margin: 30px 0;
+}
+.price-mid-card{
+    min-height: 570px;
+    margin-top: -60px;
+}
+.price-top-wrap{
+    margin-bottom: 130px;
+}
+/* faq-section */
+.faq-section{
+    padding: 70px 0;
+}
+
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+#accordion .panel{
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+}
+#accordion .panel-heading{
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+}
+#accordion .panel-title a{
+    display: block;
+    padding: 15px;
+    background-color: #20202C;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;
+    box-shadow: 0px 0px 40px #0000008A;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    position: relative;
+    padding-right: 60px;
+}
+#accordion .panel-title a.collapsed{
+    box-shadow: 0px 0px 40px #0000008A;
+    background-color: #20202C;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff9d;
+    font-size: 17px;
+}
+#accordion .panel-title a:before,
+#accordion .panel-title a.collapsed:before{
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    width: 50px;
+    height: 100%;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0px 5px 5px 0px;
+    transition: all 0.3s;
+    background-color: #262634;
+}
+#accordion .panel-title a.collapsed:before{
+    content: "\f067";
+    color: #ffffff9d;
+}
+
+#accordion .panel-body{
+    padding: 10px 15px 15px;
+    border: none;
+    font-size: 15px;
+    color: #66667E;
+    line-height: 27px;
+    box-shadow: 0px 0px 40px #0000008A;
+}
+.panel-title{
+    margin-bottom: 0;
+}
+/* subscribe-section */
+.sub-section{
+    padding: 30px 0;
+    background-color: #262635;
+}
+/* footer */
+footer{
+    padding: 70px 0;
+}
+footer ul{
+    padding: 0;
+    margin: 0;
+}
+footer ul li h6{
+    font-size: 17px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a,footer ul li span{
+    font-size: 14px;
+    color: #66667E;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+footer ul li a:hover{
+    color: #fff;
+}
+.social-icons a{
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid #66667E;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    color:  #66667E;
+    transition: .3s;
+}
+.social-icons a:hover{
+    border: 1px solid #fff;
+    color:  #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#tab1Content {
+display: block; 
+}
+
+#tab2Content{
+display: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+/* 1024px */
+@media only screen and (max-width:1024px) {
+    .client-section{
+        margin-top: 0;
+    }
+    .big-client{
+        margin-top: auto;
+    }
+    .hero-section .row{
+        margin-top: 0px;
+    }
+}
+
+
+/* 960px */
+@media only screen and (max-width:768px) {
+    .navbar-nav{
+        width: auto;
+    }
+    .price-mid-card {
+        min-height: auto;
+        margin: 40px 0;
+    }
+    .hero-des{
+        text-align: center;
+    }
+    .brand-section p{
+        margin: 20px 0 0 0px;
+        text-align: center;
+    }
+    .price-top-wrap {
+        margin-bottom: 50px;
+    }
+    .brand-section {
+        padding: 30px 0;
+    }
+
+}
+@media only screen and (max-width:500px) {
+    #accordion .panel-title a:before,
+#accordion .panel-title a.collapsed:before{
+    line-height: 70px;
+}
+
+}
